@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Style for the projects section */
+.projects {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;            /* Add space inside the section */
+    border-radius: 10px;      /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px 0;           /* Add space above and below */
+}
+
+/* Style for the heading */
+.projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073e6;          /* Blue color */
+    text-align: center;      /* Center the heading */
+    margin-bottom: 15px;     /* Space below the heading */
+}
+
+/* Style for the list */
+.projects ul {
+    list-style-type: none;   /* Remove bullets */
+    padding: 0;              /* Remove default padding */
+}
+
+.projects li {
+    margin: 10px 0;          /* Space between list items */
+}
+
+/* Style for the links */
+.projects a {
+    text-decoration: none;   /* Remove underline */
+    color: #0073e6;          /* Blue color for links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.projects a:hover {
+    color: #005bb5;          /* Darker blue on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
